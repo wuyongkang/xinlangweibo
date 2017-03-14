@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F2A1AD1E77E4FC00C42E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2A1AC1E77E4FC00C42E9A /* AppDelegate.swift */; };
+		07F2A1AF1E77E4FC00C42E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2A1AE1E77E4FC00C42E9A /* ViewController.swift */; };
+		07F2A1B21E77E4FC00C42E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F2A1B01E77E4FC00C42E9A /* Main.storyboard */; };
+		07F2A1B41E77E4FC00C42E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F2A1B31E77E4FC00C42E9A /* Assets.xcassets */; };
+		07F2A1B71E77E4FC00C42E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F2A1B51E77E4FC00C42E9A /* LaunchScreen.storyboard */; };
+		07F2A1C21E77E4FC00C42E9A /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2A1C11E77E4FC00C42E9A /* ____Tests.swift */; };
+		07F2A1CD1E77E4FC00C42E9A /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2A1CC1E77E4FC00C42E9A /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F2A1BE1E77E4FC00C42E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F2A1A11E77E4FC00C42E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F2A1A81E77E4FC00C42E9A;
+			remoteInfo = "新浪微博";
+		};
+		07F2A1C91E77E4FC00C42E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F2A1A11E77E4FC00C42E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F2A1A81E77E4FC00C42E9A;
+			remoteInfo = "新浪微博";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F2A1A91E77E4FC00C42E9A /* 新浪微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F2A1AC1E77E4FC00C42E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07F2A1AE1E77E4FC00C42E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07F2A1B11E77E4FC00C42E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07F2A1B31E77E4FC00C42E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07F2A1B61E77E4FC00C42E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07F2A1B81E77E4FC00C42E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F2A1BD1E77E4FC00C42E9A /* 新浪微博Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F2A1C11E77E4FC00C42E9A /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		07F2A1C31E77E4FC00C42E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F2A1C81E77E4FC00C42E9A /* 新浪微博UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F2A1CC1E77E4FC00C42E9A /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		07F2A1CE1E77E4FC00C42E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F2A1A61E77E4FC00C42E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2A1BA1E77E4FC00C42E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2A1C51E77E4FC00C42E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F2A1A01E77E4FC00C42E9A = {
+			isa = PBXGroup;
+			children = (
+				07F2A1AB1E77E4FC00C42E9A /* 新浪微博 */,
+				07F2A1C01E77E4FC00C42E9A /* 新浪微博Tests */,
+				07F2A1CB1E77E4FC00C42E9A /* 新浪微博UITests */,
+				07F2A1AA1E77E4FC00C42E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F2A1AA1E77E4FC00C42E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F2A1A91E77E4FC00C42E9A /* 新浪微博.app */,
+				07F2A1BD1E77E4FC00C42E9A /* 新浪微博Tests.xctest */,
+				07F2A1C81E77E4FC00C42E9A /* 新浪微博UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F2A1AB1E77E4FC00C42E9A /* 新浪微博 */ = {
+			isa = PBXGroup;
+			children = (
+				07F2A1AC1E77E4FC00C42E9A /* AppDelegate.swift */,
+				07F2A1AE1E77E4FC00C42E9A /* ViewController.swift */,
+				07F2A1B01E77E4FC00C42E9A /* Main.storyboard */,
+				07F2A1B31E77E4FC00C42E9A /* Assets.xcassets */,
+				07F2A1B51E77E4FC00C42E9A /* LaunchScreen.storyboard */,
+				07F2A1B81E77E4FC00C42E9A /* Info.plist */,
+			);
+			path = "新浪微博";
+			sourceTree = "<group>";
+		};
+		07F2A1C01E77E4FC00C42E9A /* 新浪微博Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07F2A1C11E77E4FC00C42E9A /* ____Tests.swift */,
+				07F2A1C31E77E4FC00C42E9A /* Info.plist */,
+			);
+			path = "新浪微博Tests";
+			sourceTree = "<group>";
+		};
+		07F2A1CB1E77E4FC00C42E9A /* 新浪微博UITests */ = {
+			isa = PBXGroup;
+			children = (
+				07F2A1CC1E77E4FC00C42E9A /* ____UITests.swift */,
+				07F2A1CE1E77E4FC00C42E9A /* Info.plist */,
+			);
+			path = "新浪微博UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F2A1A81E77E4FC00C42E9A /* 新浪微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F2A1D11E77E4FC00C42E9A /* Build configuration list for PBXNativeTarget "新浪微博" */;
+			buildPhases = (
+				07F2A1A51E77E4FC00C42E9A /* Sources */,
+				07F2A1A61E77E4FC00C42E9A /* Frameworks */,
+				07F2A1A71E77E4FC00C42E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "新浪微博";
+			productName = "新浪微博";
+			productReference = 07F2A1A91E77E4FC00C42E9A /* 新浪微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07F2A1BC1E77E4FC00C42E9A /* 新浪微博Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F2A1D41E77E4FC00C42E9A /* Build configuration list for PBXNativeTarget "新浪微博Tests" */;
+			buildPhases = (
+				07F2A1B91E77E4FC00C42E9A /* Sources */,
+				07F2A1BA1E77E4FC00C42E9A /* Frameworks */,
+				07F2A1BB1E77E4FC00C42E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F2A1BF1E77E4FC00C42E9A /* PBXTargetDependency */,
+			);
+			name = "新浪微博Tests";
+			productName = "新浪微博Tests";
+			productReference = 07F2A1BD1E77E4FC00C42E9A /* 新浪微博Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07F2A1C71E77E4FC00C42E9A /* 新浪微博UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F2A1D71E77E4FC00C42E9A /* Build configuration list for PBXNativeTarget "新浪微博UITests" */;
+			buildPhases = (
+				07F2A1C41E77E4FC00C42E9A /* Sources */,
+				07F2A1C51E77E4FC00C42E9A /* Frameworks */,
+				07F2A1C61E77E4FC00C42E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F2A1CA1E77E4FC00C42E9A /* PBXTargetDependency */,
+			);
+			name = "新浪微博UITests";
+			productName = "新浪微博UITests";
+			productReference = 07F2A1C81E77E4FC00C42E9A /* 新浪微博UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F2A1A11E77E4FC00C42E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = eric;
+				TargetAttributes = {
+					07F2A1A81E77E4FC00C42E9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					07F2A1BC1E77E4FC00C42E9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07F2A1A81E77E4FC00C42E9A;
+					};
+					07F2A1C71E77E4FC00C42E9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07F2A1A81E77E4FC00C42E9A;
+					};
+				};
+			};
+			buildConfigurationList = 07F2A1A41E77E4FC00C42E9A /* Build configuration list for PBXProject "新浪微博" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07F2A1A01E77E4FC00C42E9A;
+			productRefGroup = 07F2A1AA1E77E4FC00C42E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F2A1A81E77E4FC00C42E9A /* 新浪微博 */,
+				07F2A1BC1E77E4FC00C42E9A /* 新浪微博Tests */,
+				07F2A1C71E77E4FC00C42E9A /* 新浪微博UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F2A1A71E77E4FC00C42E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2A1B71E77E4FC00C42E9A /* LaunchScreen.storyboard in Resources */,
+				07F2A1B41E77E4FC00C42E9A /* Assets.xcassets in Resources */,
+				07F2A1B21E77E4FC00C42E9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2A1BB1E77E4FC00C42E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2A1C61E77E4FC00C42E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F2A1A51E77E4FC00C42E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2A1AF1E77E4FC00C42E9A /* ViewController.swift in Sources */,
+				07F2A1AD1E77E4FC00C42E9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2A1B91E77E4FC00C42E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2A1C21E77E4FC00C42E9A /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2A1C41E77E4FC00C42E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2A1CD1E77E4FC00C42E9A /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F2A1BF1E77E4FC00C42E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F2A1A81E77E4FC00C42E9A /* 新浪微博 */;
+			targetProxy = 07F2A1BE1E77E4FC00C42E9A /* PBXContainerItemProxy */;
+		};
+		07F2A1CA1E77E4FC00C42E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F2A1A81E77E4FC00C42E9A /* 新浪微博 */;
+			targetProxy = 07F2A1C91E77E4FC00C42E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07F2A1B01E77E4FC00C42E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F2A1B11E77E4FC00C42E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07F2A1B51E77E4FC00C42E9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F2A1B61E77E4FC00C42E9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F2A1CF1E77E4FC00C42E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07F2A1D01E77E4FC00C42E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F2A1D21E77E4FC00C42E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "新浪微博/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		07F2A1D31E77E4FC00C42E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "新浪微博/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		07F2A1D51E77E4FC00C42E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "新浪微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/新浪微博.app/新浪微博";
+			};
+			name = Debug;
+		};
+		07F2A1D61E77E4FC00C42E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "新浪微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/新浪微博.app/新浪微博";
+			};
+			name = Release;
+		};
+		07F2A1D81E77E4FC00C42E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "新浪微博UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "新浪微博";
+			};
+			name = Debug;
+		};
+		07F2A1D91E77E4FC00C42E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "新浪微博UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eric.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "新浪微博";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F2A1A41E77E4FC00C42E9A /* Build configuration list for PBXProject "新浪微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2A1CF1E77E4FC00C42E9A /* Debug */,
+				07F2A1D01E77E4FC00C42E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F2A1D11E77E4FC00C42E9A /* Build configuration list for PBXNativeTarget "新浪微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2A1D21E77E4FC00C42E9A /* Debug */,
+				07F2A1D31E77E4FC00C42E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07F2A1D41E77E4FC00C42E9A /* Build configuration list for PBXNativeTarget "新浪微博Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2A1D51E77E4FC00C42E9A /* Debug */,
+				07F2A1D61E77E4FC00C42E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07F2A1D71E77E4FC00C42E9A /* Build configuration list for PBXNativeTarget "新浪微博UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2A1D81E77E4FC00C42E9A /* Debug */,
+				07F2A1D91E77E4FC00C42E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F2A1A11E77E4FC00C42E9A /* Project object */;
+}
